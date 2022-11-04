@@ -24,6 +24,7 @@ for more options.
 
 #if defined(KEYBOARD_sofle_rev1)
 // Add RGB underglow and top facing lighting
+#    define DYNAMIC_KEYMAP_LAYER_COUNT 6
 #    define RGB_DI_PIN D3
 #    define RGBLED_NUM 70
 #    define RGBLED_SPLIT \
